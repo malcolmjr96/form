@@ -1,28 +1,26 @@
 body {
-    text-align: center;
+    text-align: none;
 }
 .mainFormContainer {
-    width: 460px;
+    width: 440px;
     height: auto;
     background-color:red;
+    padding: 5px;
 }
 
-#firstName {
-background-color: red;
+.given, .surname {
+    display: inline-block;
 }
 
-#firstName, #lastName {
-    display:inline-block;
-    margin: auto;
-    width: 250px;
+
+.submissionInfo {
+    background-color: darkgray;
+    color:white;
+}
+.disclaimer, .submitButton {
+    display: inline-block;
 }
 
-#email {
-    display: block;
-    margin:auto;
+#email, #firstName, #lastName {
     width: 100%;
-}
-
-#submit {
-    width: 200px;
 }
