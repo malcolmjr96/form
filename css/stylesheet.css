@@ -2,32 +2,35 @@ body {
     text-align: none;
 }
 .mainFormContainer {
-    width: 440px;
+    width: 500px;
     height: auto;
     background-color:red;
+    margin: auto;
 }
 
-.given, .surname {
-    display: inline-block;
+.given,.surname {
+    display:inline-block;
+    width: 50%;
 }
 
 .submissionInfo {
     background-color: darkgray;
-    padding: 12px;
     color:white;
 }
 .disclaimer, .submitButton {
     display: inline-block;
 }
 
-#firstName, #lastName {
-    width: 218px;
-}
-#email, #tel, #message {
+#email, #tel, #message, #firstName, #lastName {
     width: 100%;
+    padding: 15px;
 }
 
 textarea {
     resize:none;
+    margin:auto;
+}
+input {
+
 }
 
