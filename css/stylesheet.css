@@ -5,22 +5,29 @@ body {
     width: 440px;
     height: auto;
     background-color:red;
-    padding: 5px;
 }
 
 .given, .surname {
     display: inline-block;
 }
 
-
 .submissionInfo {
     background-color: darkgray;
+    padding: 12px;
     color:white;
 }
 .disclaimer, .submitButton {
     display: inline-block;
 }
 
-#email, #firstName, #lastName {
+#firstName, #lastName {
+    width: 218px;
+}
+#email, #tel, #message {
     width: 100%;
 }
+
+textarea {
+    resize:none;
+}
+
