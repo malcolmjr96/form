@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+.mainFormContainer {
+    width: 460px;
+    height: auto;
+    background-color:red;
+}
+
+#firstName {
+background-color: red;
+}
+
+#firstName, #lastName {
+    display:inline-block;
+    margin: auto;
+    width: 250px;
+}
+
+#email {
+    display: block;
+    margin:auto;
+    width: 100%;
+}
+
+#submit {
+    width: 200px;
+}
