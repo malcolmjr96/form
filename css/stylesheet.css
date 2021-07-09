@@ -1,7 +1,7 @@
 body {
     text-align: none;
 }
-.mainFormContainer {
+.main-form-container {
     width: 500px;
     height: auto;
     background-color:red;
@@ -13,15 +13,15 @@ body {
     width: 50%;
 }
 
-.submissionInfo {
+.submission-info {
     background-color: darkgray;
     color:white;
 }
-.disclaimer, .submitButton {
+.disclaimer, .submit-button {
     display: inline-block;
 }
 
-#email, #tel, #message, #firstName, #lastName {
+#email, #tel, #message, #first-name, #last-name {
     width: 100%;
     padding: 15px;
 }
